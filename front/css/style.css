@@ -6,7 +6,7 @@
 }
 
 .container {
-    background: rgba(0, 0, 0, .2);  
+    background: #fff;  
     width: 90%;
     min-height: 500px;
     margin: auto;    
@@ -21,6 +21,9 @@
     position: block;
 }
 
+.text-center {
+    text-align: center;
+}
 /*------------------------------------------------div principal*/
 .container h2 {
     font-family: rage, cursive;
@@ -185,14 +188,16 @@ figure.foto-local:hover figcaption{
     padding: 0 0 0 0;
 }
 
-.confi_pres{
-    width: 155;
-    margin: 0 0 0 0 ;
+legend.confi_pres {
+    margin-bottom: 20px;
+    font-size: 1.5em;
 }
 
 fieldset{
-    height: 50%; 	
-    width: 80%;	
+    height: 50%;
+    width: 80%;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
 }
 
 #nome{	
@@ -204,6 +209,14 @@ fieldset{
 #e-mail{
     width: 80%;
     margin: 0 5 0 0;
+}
+
+#confirma_presenca {
+    margin-bottom: 20px;
+}
+
+#confirma_presenca th {
+    width: 50%;
 }
 
 .sim-nao{
@@ -235,9 +248,8 @@ fieldset{
     size: block;
 }
 
-legend{
+legend {
     width: 120;
-    margin: 0 0 10 0 ;
 }
 
 /*------------------------------------ Presente*/

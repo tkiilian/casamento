@@ -1,0 +1,29 @@
+{
+  "familiaId": 0,
+  "familiaCode": "FAM_TEIXEI",
+  "pessoaId": 0,
+  "nome": null,
+  "presenca": false,
+  "pessoas": [
+    {
+      "pessoaId": 1,
+      "nome": "Heber Teixeira",
+      "presenca": true
+    },
+    {
+      "pessoaId": 2,
+      "nome": "Rubens",
+      "presenca": false
+    },
+    {
+      "pessoaId": 3,
+      "nome": "Roberto",
+      "presenca": false
+    },
+    {
+      "pessoaId": 4,
+      "nome": "Renilda",
+      "presenca": false
+    }
+  ]
+}

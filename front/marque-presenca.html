@@ -32,11 +32,9 @@
                     <li><a href="noivos.html">Noivos</a></li>
                     <li><a href="padrinhos.html">Padrinhos</a></li>
                     <li><a href="local.html">Local</a></li>
-                    <li><a href="marque-presenca.html">Confirme Sua Presença</a></li>
                     <li><a href="presente.html">Lista de Presente</a></li>
                     <li><a href="recado.html">Recados</a></li>
-                    <li><a href="album.html">Fotos</a></li>
-                    
+                    <li><a href="album.html">Fotos</a></li>                    
                 </ul>
             </nav> 
             </header>        
@@ -60,18 +58,18 @@
                                 <input id="e-mail" type="email" placeholder="Digite seu E-mail" maxlength="50" />
                                 <br>
                                 <br>
-                                
-                                <label for="Irá ao Evento">Irá ao Evento:<label>
-                                <input class="sim-nao" name="ira_ao_evento" type="radio" />Sim
-                                <input class="sim-nao" name="ira_ao_evento" type="radio" />Não
-                                <br>
-                                <br>
-                                
-                                <label class="qtd" for="quant adultos">Qtd. Adultos:</label>	
-                                <input id="qtdadulto" type="number" maxlength="2" />
-                                <br>
-                                <br>
-                                
+
+                                <table id="confirma_presenca">
+                                    <thead>
+                                        <tr>
+                                            <th>Nome</th>
+                                            <th>Confirma presença</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody></tbody>
+                                </table>
+
                                 <label id="obs" for="Obs" >Observação:</label>
                                 <textarea id="observacao" type="text" placeholder="Digite suas Observações" maxlength="1000"></textarea>
                                 <br><br>
@@ -84,7 +82,7 @@
             </div>
 
             <footer class="rodape">
-
+              <script src="script/marque-presenca.js" type=""></script>  
             </footer>
         </div>
     </body>
