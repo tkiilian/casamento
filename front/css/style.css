@@ -1,0 +1,316 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    background: rgba(0, 0, 0, .2);  
+    width: 90%;
+    min-height: 500px;
+    margin: auto;    
+}
+
+#principal {
+    background-image:url('../img/fundo-alianca.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-attachment: fixed;
+    position: block;
+}
+
+/*------------------------------------------------div principal*/
+.container h2 {
+    font-family: rage, cursive;
+    font-size: 30px;
+    color: black;
+    padding: 5px 0 0 5px;  
+}
+
+.container h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.container p {
+    font-family: rage, cursive;
+    font-size: 25px;
+    padding: 0 0 0 3px;
+    color: black;
+}
+
+
+/*-----------------------------------CABEÇALHO*/
+.cabecalho {
+    width: 100%;
+    min-height: 100px; 
+}
+
+#logo {
+    margin: auto;    
+}
+
+#logo2 {
+    font-family: rage, cursive;
+    font-size: 30px;
+    color: rgb(218,165,32);
+    text-align: center;
+    width: 100%;
+    padding: 0 0 0 0px;
+}
+
+#menu{
+    width: 100%;
+    height: 30px;
+}
+
+#menu ul{
+    display: block;  
+    font-family: rage , cursive;
+    font-size: 20px;	
+    list-style: none;
+    width: 90%;
+    margin: 0 0 0 67px; 
+    text-align: center;
+      
+}
+
+#menu ul li{
+    display: inline;
+    margin: 0 10px 0 10px; 
+    color: black;
+    text-transform: unset;
+    transition: background-color 1s;
+}
+
+#menu li:hover{
+    background-color: rgba(255,192,203, .4);
+}
+
+#menu ul li a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 4px 0 4px;
+    padding: 0 0 0 0;
+}
+
+
+/*---------------------------------- rodape*/
+
+.rodape{
+    width: 100%;
+    min-height: 70px;
+    text-align: center; 
+}
+
+
+/*----------------------------------noivos*/
+.noivos {	
+    width: 100%;
+    margin: 0 5 0 5;
+}
+
+.noivos tr{
+    margin: 0 0px 0 0px;
+
+}
+.noivos tr td { 
+    width: 35%;
+    padding: 0 5 10 5;
+    text-align: center;
+}
+
+.noivos tr td h4 {
+    text-align: center;
+}
+
+/*-------------------------------padrinhos*/
+.padrinhos {	
+    width: 100%;
+    margin: 0 5 0 5;
+    padding: 0 0 0 0;
+}
+
+.padrinhos tr td { 
+    width: 35%;
+    padding: 0 5 10 5;
+    text-align: center;
+}
+
+.padrinhos tr td h4 {
+    text-align: center;
+}
+
+/*------------------------------------local*/
+
+figure.foto-local{
+    position: relative;
+    border: 3px solid gray;
+    box-shadow: 0px 0px 0px black;  
+}
+
+figure.foto-local img {	
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-local figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background-color: rgba( 0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 99.9%;
+    box-sizing: border-box;
+    transition: opacity 1s;  
+}
+
+figure.foto-local:hover figcaption{
+    opacity: 1;
+}
+
+/*--------------------------------- Confirme Sua presença*/
+
+.formulario {
+    width: 30%;
+    position: absolute;
+    display: block;
+    margin: 5% 35% 0 35%;
+    padding: 0 0 0 0;
+}
+
+.confi_pres{
+    width: 155;
+    margin: 0 0 0 0 ;
+}
+
+fieldset{
+    height: 50%; 	
+    width: 80%;	
+}
+
+#nome{	
+    width: 80%;
+    margin: 0 0 0 1.5%;
+    padding: 0 0 0 0;
+}
+
+#e-mail{
+    width: 80%;
+    margin: 0 5 0 0;
+}
+
+.sim-nao{
+    width: 5%;
+    margin: 0 0 0 0;
+    background: gray;
+}
+
+#qtdadulto{
+    width: 7%;
+    margin: 0 0 0 0;
+}
+
+#observacao{
+    height: 50%;
+    margin: 0 0 0 0;	
+    size: block;
+}
+
+#enviar{
+    width:100%;
+    margin: 5% 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#recado{
+    height: 45%;
+    margin: 0 0 0 0;	
+    size: block;
+}
+
+legend{
+    width: 120;
+    margin: 0 0 10 0 ;
+}
+
+/*------------------------------------ Presente*/
+
+.presente{	
+    width: 70%;
+    margin: 0 15% 0 15%;
+}
+
+.presente tr td{
+    width: 35%;
+    margin: 0 0% 0 0%;
+    padding: 10% 20% 30% 20%;
+}
+
+/*--------------------------------- Album*/
+
+.container.album img{
+    width: 100%;
+    margin: 0 0 0 3px;
+    padding:0 0 0 0; 
+}
+
+.container.album .row{
+    margin-bottom: 30px;
+
+}
+
+#cortina {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    background: rgba( 0, 0, 0, .9);
+    display: none;
+}
+
+
+#picture{
+    background-image: url('../img/noiva.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+#close {
+    position: absolute;
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    line-height: 20vh;
+    margin-left: -15px;
+}
+
+#next {
+    position: relative;
+}
+
+#prev,#next{
+    line-height: 95vh;
+    color: #fff;
+    font-size: 2.5em;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+#prev:hover,#next:hover {
+    background-color: rgba(0, 0, 0, .7);
+    transition: background-color 150ms ease-in;
+}
