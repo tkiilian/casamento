@@ -8,7 +8,7 @@
 .container {
     background: #fff;  
     width: 90%;
-    min-height: 500px;
+    /* min-height: 500px; */
     margin: auto;    
 }
 
@@ -24,6 +24,21 @@
 .text-center {
     text-align: center;
 }
+
+.v-center {
+    position: relative;
+    top: 25vh;
+}
+
+.hide {
+    display: none;
+}
+
+.border-padding {
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 /*------------------------------------------------div principal*/
 .container h2 {
     font-family: rage, cursive;
@@ -181,11 +196,10 @@ figure.foto-local:hover figcaption{
 /*--------------------------------- Confirme Sua presença*/
 
 .formulario {
-    width: 30%;
-    position: absolute;
+    width: 70ch;
     display: block;
-    margin: 5% 35% 0 35%;
-    padding: 0 0 0 0;
+    margin: auto;
+    padding: 0 0 50px 0;
 }
 
 legend.confi_pres {
@@ -194,8 +208,7 @@ legend.confi_pres {
 }
 
 fieldset{
-    height: 50%;
-    width: 80%;
+    height: 50%;    
     border: none;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
 }
@@ -213,6 +226,7 @@ fieldset{
 
 #confirma_presenca {
     margin-bottom: 20px;
+    width: 90%;
 }
 
 #confirma_presenca th {
@@ -230,10 +244,21 @@ fieldset{
     margin: 0 0 0 0;
 }
 
-#observacao{
-    height: 50%;
-    margin: 0 0 0 0;	
-    size: block;
+#obs {
+    margin-left: 10px;
+}
+
+div.observacao {
+    width: calc(100% - 40px);
+    margin: 10px auto 0 auto;
+}
+
+#observacao {
+    height: 100px;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
 }
 
 #enviar{
@@ -274,8 +299,7 @@ legend {
 }
 
 .container.album .row{
-    margin-bottom: 30px;
-
+    padding-bottom: 30px;
 }
 
 #cortina {

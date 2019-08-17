@@ -39,9 +39,8 @@
             </nav> 
             </header>        
 
-            <div class="container">
+            <div class="container hide">
                 <div>
-                    <script src="script/app.js" type="text/javascript"></script>				
                     <section id="conteudo">
                         <h2>Confirme sua Presença</h2>		
                         <br>
@@ -49,16 +48,7 @@
                         <form  class="formulario" action="#">
                             <fieldset>
                                 <legend class="confi_pres">Confirme Sua Presença</legend>
-                                <label for="Nome" >Nome:</label>
-                                <input id="nome" type="text" placeholder="Digite seu Nome" maxlength= "25" />				
-                                <br>
-                                <br>
-                                
-                                <label for="e-mail" >E-mail:<label>
-                                <input id="e-mail" type="email" placeholder="Digite seu E-mail" maxlength="50" />
-                                <br>
-                                <br>
-
+                               
                                 <table id="confirma_presenca">
                                     <thead>
                                         <tr>
@@ -69,21 +59,19 @@
 
                                     <tbody></tbody>
                                 </table>
-
-                                <label id="obs" for="Obs" >Observação:</label>
-                                <textarea id="observacao" type="text" placeholder="Digite suas Observações" maxlength="1000"></textarea>
-                                <br><br>
                                 
                                 <input id="enviar" type="submit" name="enviar" value="Enviar" />
                             </fieldset>				
                         </form>
-                    </section>                   
+                    </section>     
+                    
+                    <div id="message-presenca" class="hide"></div>
                 </div>
             </div>
 
-            <footer class="rodape">
-              <script src="script/marque-presenca.js" type=""></script>  
-            </footer>
+            <footer class="rodape"></footer>
         </div>
+
+        <script src="script/marque-presenca.js" type=""></script>  
     </body>
 </html>
