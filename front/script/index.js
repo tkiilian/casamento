@@ -2,16 +2,7 @@ function cronometroRegressivo() {
   var section = document.getElementById("conteudo");
   var h1List = section.getElementsByTagName("h1");
 
-  var cronometro = null;
-
-  for (let i = 0; i < h1List.length; i++) {
-    const val = h1List[i];
-    
-    if (val.innerText === "CRONOMETRO REGRESSIVO") {
-      cronometro = val;
-      break;
-    }
-  }
+  var cronometro = document.getElementById('cronometro');
 
   var dataCasamento = new Date("11/03/2019")
 
