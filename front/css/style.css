@@ -6,9 +6,8 @@
 }
 
 .container {
-    background: #fff;  
+    /*background: rgba( 0, 0, 0, .4);*/
     width: 90%;
-    /* min-height: 500px; */
     margin: auto;    
 }
 
@@ -38,7 +37,6 @@
     padding: 5px 10px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 /*------------------------------------------------div principal*/
 .container h2 {
     font-family: rage, cursive;
@@ -56,7 +54,7 @@
 
 .container p {
     font-family: rage, cursive;
-    font-size: 25px;
+    font-size:25px;
     padding: 0 0 0 3px;
     color: black;
 }
@@ -65,7 +63,10 @@
 /*-----------------------------------CABEÇALHO*/
 .cabecalho {
     width: 100%;
-    min-height: 100px; 
+    min-height: 100px;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+    margin-bottom: 30px;
 }
 
 #logo {
@@ -83,16 +84,16 @@
 
 #menu{
     width: 100%;
-    height: 30px;
+    height: 40px;
 }
 
 #menu ul{
     display: block;  
     font-family: rage , cursive;
-    font-size: 20px;	
+    font-size: 30px;	
     list-style: none;
-    width: 90%;
-    margin: 0 0 0 67px; 
+    /*width: 100%;*/
+    margin: 0 0 20px 0; 
     text-align: center;
       
 }
@@ -124,28 +125,32 @@
     width: 100%;
     min-height: 70px;
     text-align: center; 
+    border: none;
+    box-shadow: 10px -10px 10px rgba(0, 0, 0, .6);
+    margin-top: 20px;
 }
 
 
 /*----------------------------------noivos*/
-.noivos {	
+.container.noivos .row {
     width: 100%;
-    margin: 0 5 0 5;
+    margin-top: 20px;
+    margin-bottom: 20px; 
 }
 
-.noivos tr{
-    margin: 0 0px 0 0px;
-
-}
-.noivos tr td { 
-    width: 35%;
-    padding: 0 5 10 5;
-    text-align: center;
+.container.noivos .col {
+    width: 150px;
 }
 
-.noivos tr td h4 {
-    text-align: center;
+.container.noivos img {	
+    width: 50%;
+    margin: 0 0 0 150px;
+    padding: 0;
 }
+
+
+
+
 
 /*-------------------------------padrinhos*/
 .padrinhos {	
